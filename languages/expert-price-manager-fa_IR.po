@@ -1,0 +1,906 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Expert Price & Stock Manager 1.0.0\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin/pricing-page.php:19 admin/pricing-page.php:118
+#: admin/pricing-page.php:142
+msgid "Product Pricing"
+msgstr "قیمت‌دهی محصولات"
+
+#: admin/pricing-page.php:19
+msgid "Price Manager"
+msgstr "مدیریت قیمت"
+
+#: admin/pricing-page.php:51
+msgid "Save / update"
+msgstr "ذخیره / به‌روزرسانی"
+
+#: admin/pricing-page.php:52
+msgid "Save"
+msgstr "ذخیره"
+
+#: admin/pricing-page.php:53 admin/pricing-page.php:226
+msgid "Delete product"
+msgstr "حذف محصول"
+
+#: admin/pricing-page.php:54
+msgid "Saved."
+msgstr "ذخیره شد."
+
+#: admin/pricing-page.php:55
+msgid "Error"
+msgstr "خطا"
+
+#: admin/pricing-page.php:56
+msgid "Server connection error. Please try again."
+msgstr "خطای ارتباط با سرور. دوباره تلاش کنید."
+
+#: admin/pricing-page.php:57
+msgid "Loading variations..."
+msgstr "در حال بارگذاری تنوع‌ها..."
+
+#: admin/pricing-page.php:58
+msgid "No variations found."
+msgstr "تنوعی یافت نشد."
+
+#: admin/pricing-page.php:59
+msgid "Variation"
+msgstr "مشخصات تنوع"
+
+#: admin/pricing-page.php:60 admin/pricing-page.php:262
+#: ajax/admin-export.php:50
+msgid "Regular price"
+msgstr "قیمت اصلی"
+
+#: admin/pricing-page.php:61 admin/pricing-page.php:263
+#: ajax/admin-export.php:51
+msgid "Sale price"
+msgstr "قیمت تخفیف‌خورده"
+
+#: admin/pricing-page.php:62 admin/pricing-page.php:264
+#: ajax/admin-export.php:56
+msgid "Stock quantity"
+msgstr "موجودی انبار"
+
+#: admin/pricing-page.php:63 admin/pricing-page.php:265
+msgid "In stock"
+msgstr "موجود است"
+
+#: admin/pricing-page.php:64 admin/pricing-page.php:266
+msgid "Actions"
+msgstr "عملیات"
+
+#: admin/pricing-page.php:65
+msgid "Error loading variations."
+msgstr "خطا در بارگذاری تنوع‌ها."
+
+#: admin/pricing-page.php:66
+msgid "Previous"
+msgstr "قبلی"
+
+#: admin/pricing-page.php:68
+msgid "Page %1$s of %2$s (%3$s products)"
+msgstr "صفحه %1$s از %2$s (%3$s محصول)"
+
+#: admin/pricing-page.php:69
+msgid "Next"
+msgstr "بعدی"
+
+#: admin/pricing-page.php:70 admin/pricing-page.php:268
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+#: admin/pricing-page.php:71
+msgid "Error loading products."
+msgstr "خطا در بارگذاری."
+
+#: admin/pricing-page.php:72
+msgid "No products found."
+msgstr "محصولی یافت نشد."
+
+#: admin/pricing-page.php:73
+msgid "View"
+msgstr "نمایش"
+
+#: admin/pricing-page.php:74
+msgid "Edit"
+msgstr "ویرایش"
+
+#: admin/pricing-page.php:75
+msgid "Add a redirect in Rank Math"
+msgstr "افزودن ریدایرکت در Rank Math"
+
+#: admin/pricing-page.php:76
+msgid "Redirect"
+msgstr "ریدایرکت"
+
+#: admin/pricing-page.php:78
+msgid "%s variations"
+msgstr "%s تنوع"
+
+#: admin/pricing-page.php:80
+msgid "Last updated: %1$s by %2$s"
+msgstr "بروزرسانی: %1$s — توسط %2$s"
+
+#: admin/pricing-page.php:82
+msgid "Last updated: %s"
+msgstr "بروزرسانی: %s"
+
+#: admin/pricing-page.php:84
+msgid "The price of this product type (%s) cannot be edited from this panel."
+msgstr "قیمت این نوع محصول (%s) از این پنل قابل ویرایش نیست."
+
+#: admin/pricing-page.php:85
+msgid ""
+"This product has several variations; set the price and stock of each "
+"variation in the box below."
+msgstr ""
+"این محصول دارای چند تنوع است؛ قیمت و موجودی هر تنوع را از باکس زیر تنظیم "
+"کنید."
+
+#: admin/pricing-page.php:86
+msgid "Server connection error."
+msgstr "خطای ارتباط با سرور."
+
+#: admin/pricing-page.php:87 admin/pricing-page.php:241
+msgid "Move to trash"
+msgstr "انتقال به زباله‌دان"
+
+#: admin/pricing-page.php:88
+msgid "Delete permanently + set 410"
+msgstr "حذف دائمی + ثبت ۴۱۰"
+
+#: admin/pricing-page.php:89
+msgid "Delete permanently + 301 to category"
+msgstr "حذف دائمی + ۳۰۱ به دسته"
+
+#: admin/pricing-page.php:90
+msgid "Delete permanently + 301 to destination"
+msgstr "حذف دائمی + ۳۰۱ به مقصد"
+
+#: admin/pricing-page.php:91
+msgid "Checking..."
+msgstr "در حال بررسی..."
+
+#: admin/pricing-page.php:93
+msgid "URL: %s"
+msgstr "آدرس: %s"
+
+#: admin/pricing-page.php:94
+msgid ""
+" — The Rank Math Redirections module is not active; only moving to the trash"
+" (without a redirect) is possible."
+msgstr ""
+" — ماژول Redirections رنک مس فعال نیست؛ فقط انتقال به زباله‌دان بدون "
+"ریدایرکت ممکن است."
+
+#: admin/pricing-page.php:96
+msgid ""
+"This product appears in %s existing orders. Deleting it permanently breaks "
+"the product link in past orders and reports."
+msgstr ""
+"این محصول در %s سفارش ثبت‌شده وجود دارد. حذف دائمی آن، لینک محصول را در "
+"سفارش‌های قبلی و گزارش‌ها از بین می‌برد."
+
+#: admin/pricing-page.php:97
+msgid "Enter the redirect destination URL."
+msgstr "آدرس مقصد ریدایرکت را وارد کنید."
+
+#: admin/pricing-page.php:98
+msgid "The destination URL must start with http:// or https://."
+msgstr "آدرس مقصد باید با http:// یا https:// شروع شود."
+
+#: admin/pricing-page.php:99
+msgid ""
+"The product will be deleted permanently and cannot be restored. Continue?"
+msgstr "محصول برای همیشه حذف می‌شود و قابل بازگشت نیست. ادامه می‌دهید؟"
+
+#: admin/pricing-page.php:100 admin/pricing-page.php:207
+msgid "— Select a template —"
+msgstr "— انتخاب قالب —"
+
+#: admin/pricing-page.php:101 ajax/admin-export.php:473
+msgid "Enter a template name."
+msgstr "نام قالب را وارد کنید."
+
+#: admin/pricing-page.php:102
+msgid "Template saved."
+msgstr "قالب ذخیره شد."
+
+#: admin/pricing-page.php:103
+msgid "Template deleted."
+msgstr "قالب حذف شد."
+
+#: admin/pricing-page.php:104 ajax/admin-export.php:199
+msgid "Select at least one column."
+msgstr "حداقل یک ستون انتخاب کنید."
+
+#: admin/pricing-page.php:105
+msgid "Preparing..."
+msgstr "در حال آماده‌سازی..."
+
+#: admin/pricing-page.php:106
+msgid "Error building the export."
+msgstr "خطا در ساخت خروجی."
+
+#: admin/pricing-page.php:107
+msgid "No products found for these filters."
+msgstr "محصولی با این فیلترها پیدا نشد."
+
+#: admin/pricing-page.php:109
+msgid "%1$s rows out of %2$s products"
+msgstr "%1$s ردیف از %2$s محصول"
+
+#: admin/pricing-page.php:111
+msgid "Download XLSX file (%s rows)"
+msgstr "دانلود فایل XLSX (%s ردیف)"
+
+#: admin/pricing-page.php:118
+msgid "Please install and activate WooCommerce first."
+msgstr "ابتدا ووکامرس را نصب و فعال کنید."
+
+#: admin/pricing-page.php:122
+msgid "This page is only accessible to shop managers and administrators."
+msgstr "این صفحه فقط برای مدیر فروشگاه و مدیرکل قابل دسترسی است."
+
+#: admin/pricing-page.php:145
+msgid "Search by product name or URL/slug..."
+msgstr "جستجوی نام محصول یا لینک (URL/نامک)..."
+
+#: admin/pricing-page.php:147
+msgid "All categories"
+msgstr "همه دسته‌بندی‌ها"
+
+#: admin/pricing-page.php:155
+msgid "All brands"
+msgstr "همه برندها"
+
+#: admin/pricing-page.php:163
+msgid "Name (A–Z)"
+msgstr "نام (صعودی)"
+
+#: admin/pricing-page.php:164
+msgid "Name (Z–A)"
+msgstr "نام (نزولی)"
+
+#: admin/pricing-page.php:165
+msgid "Price (low to high)"
+msgstr "قیمت (کم به زیاد)"
+
+#: admin/pricing-page.php:166
+msgid "Price (high to low)"
+msgstr "قیمت (زیاد به کم)"
+
+#: admin/pricing-page.php:168
+msgid "Export XLSX"
+msgstr "خروجی XLSX"
+
+#: admin/pricing-page.php:172
+msgid "Export products to XLSX"
+msgstr "خروجی XLSX محصولات"
+
+#: admin/pricing-page.php:173
+msgid ""
+"The search, category and brand filters of this page apply to the export. "
+"Choose columns and reorder them with the arrows."
+msgstr ""
+"فیلتر جستجو/دسته/برند همین صفحه روی خروجی اعمال می‌شود. ستون‌ها را انتخاب و "
+"با فلش‌ها مرتب کنید."
+
+#: admin/pricing-page.php:176
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: admin/pricing-page.php:186
+msgid "Move up"
+msgstr "بالا"
+
+#: admin/pricing-page.php:186
+msgid "Move down"
+msgstr "پایین"
+
+#: admin/pricing-page.php:190
+msgid "Custom meta (meta keys separated by comma or space, e.g. ACF fields):"
+msgstr ""
+"متای دلخواه (meta key، با ویرگول یا فاصله جدا کنید؛ مثلاً فیلدهای ACF):"
+
+#: admin/pricing-page.php:194
+msgid "Filters and options"
+msgstr "فیلتر و گزینه‌ها"
+
+#: admin/pricing-page.php:195
+msgid "Publish status:"
+msgstr "وضعیت انتشار:"
+
+#: admin/pricing-page.php:196
+msgid "Published"
+msgstr "منتشرشده"
+
+#: admin/pricing-page.php:197
+msgid "Draft"
+msgstr "پیش‌نویس"
+
+#: admin/pricing-page.php:198
+msgid "Private"
+msgstr "خصوصی"
+
+#: admin/pricing-page.php:199
+msgid "Pending"
+msgstr "در انتظار"
+
+#: admin/pricing-page.php:201
+msgid "Stock:"
+msgstr "موجودی:"
+
+#: admin/pricing-page.php:201
+msgid "All"
+msgstr "همه"
+
+#: admin/pricing-page.php:201
+msgid "In stock only"
+msgstr "فقط موجود"
+
+#: admin/pricing-page.php:201
+msgid "Out of stock only"
+msgstr "فقط ناموجود"
+
+#: admin/pricing-page.php:202
+msgid "Only:"
+msgstr "فقط:"
+
+#: admin/pricing-page.php:202
+msgid "All products"
+msgstr "همه‌ی محصولات"
+
+#: admin/pricing-page.php:202
+msgid "On sale"
+msgstr "تخفیف‌دار"
+
+#: admin/pricing-page.php:202
+msgid "Without price"
+msgstr "بدون قیمت"
+
+#: admin/pricing-page.php:202
+msgid "Without SKU"
+msgstr "بدون SKU"
+
+#: admin/pricing-page.php:203
+msgid "Put each variation of variable products on its own row"
+msgstr "هر تنوع محصول متغیر در ردیف جدا"
+
+#: admin/pricing-page.php:205
+msgid "Saved templates"
+msgstr "قالب‌های ذخیره‌شده"
+
+#: admin/pricing-page.php:208
+msgid "Delete template"
+msgstr "حذف قالب"
+
+#: admin/pricing-page.php:211
+msgid "New template name"
+msgstr "نام قالب جدید"
+
+#: admin/pricing-page.php:212
+msgid "Save columns as template"
+msgstr "ذخیره‌ی ستون‌ها به‌عنوان قالب"
+
+#: admin/pricing-page.php:217
+msgid "Build export file"
+msgstr "ساخت فایل خروجی"
+
+#: admin/pricing-page.php:229
+msgid "Create a redirect for this product URL?"
+msgstr "آیا برای آدرس این محصول ریدایرکت ساخته شود؟"
+
+#: admin/pricing-page.php:230
+msgid "No — just move it to the trash (can be restored)"
+msgstr "خیر — فقط به زباله‌دان منتقل شود (قابل بازگشت)"
+
+#: admin/pricing-page.php:231
+msgid "Yes — delete the product permanently and create a redirect (Rank Math)"
+msgstr "بله — محصول برای همیشه حذف شود و ریدایرکت (Rank Math) ساخته شود"
+
+#: admin/pricing-page.php:233
+msgid "Redirect type:"
+msgstr "نوع ریدایرکت:"
+
+#: admin/pricing-page.php:234
+msgid "410 — this page is permanently gone (no destination)"
+msgstr "۴۱۰ — این صفحه برای همیشه حذف شده (بدون مقصد)"
+
+#: admin/pricing-page.php:235
+msgid "301 — redirect to the product category"
+msgstr "۳۰۱ — انتقال به دسته‌ی محصول"
+
+#: admin/pricing-page.php:236
+msgid "301 — redirect to a custom URL"
+msgstr "۳۰۱ — انتقال به آدرس دلخواه"
+
+#: admin/pricing-page.php:242
+msgid "Cancel"
+msgstr "انصراف"
+
+#: admin/pricing-page.php:260 ajax/admin-export.php:44
+msgid "Product name"
+msgstr "نام محصول"
+
+#: ajax/admin-delete.php:67 ajax/admin-delete.php:95 ajax/admin-export.php:185
+msgid "Unauthorized access."
+msgstr "دسترسی غیرمجاز."
+
+#: ajax/admin-delete.php:71 ajax/admin-delete.php:99
+#: ajax/admin-pricing.php:246
+msgid "Product not found."
+msgstr "محصول یافت نشد."
+
+#: ajax/admin-delete.php:104
+msgid "Invalid delete type."
+msgstr "نوع حذف نامعتبر است."
+
+#: ajax/admin-delete.php:111
+msgid "Could not move the product to the trash."
+msgstr "انتقال به زباله‌دان انجام نشد."
+
+#: ajax/admin-delete.php:115
+msgid "Moved to the trash."
+msgstr "به زباله‌دان منتقل شد."
+
+#: ajax/admin-delete.php:123
+msgid ""
+"The Rank Math Redirections module is not active. Activate it first (the "
+"product was not deleted)."
+msgstr ""
+"ماژول Redirections در Rank Math فعال نیست. ابتدا آن را فعال کنید (محصول حذف "
+"نشد)."
+
+#: ajax/admin-delete.php:129
+msgid ""
+"No valid URL was found for this product; no redirect was created and the "
+"product was not deleted."
+msgstr ""
+"آدرس معتبر برای این محصول پیدا نشد؛ ریدایرکت ساخته نشد و محصول حذف نشد."
+
+#: ajax/admin-delete.php:144
+msgid "The redirect destination URL is invalid (the product was not deleted)."
+msgstr "آدرس مقصد ریدایرکت نامعتبر است (محصول حذف نشد)."
+
+#: ajax/admin-delete.php:147
+msgid "The redirect destination cannot be the product itself."
+msgstr "مقصد ریدایرکت نمی‌تواند خودِ همین محصول باشد."
+
+#: ajax/admin-delete.php:168 ajax/admin-delete.php:171
+msgid ""
+"Creating the redirect in Rank Math failed; the product was not deleted."
+msgstr "ساخت ریدایرکت در Rank Math ناموفق بود؛ محصول حذف نشد."
+
+#: ajax/admin-delete.php:184
+msgid ""
+"The product could not be deleted. Check the redirect created for the URL /%s"
+" in Rank Math."
+msgstr ""
+"حذف محصول انجام نشد. ریدایرکت ایجادشده برای آدرس /%s را در Rank Math بررسی "
+"کنید."
+
+#: ajax/admin-delete.php:192
+msgid "Deleted and its URL was set to 410."
+msgstr "حذف شد و آدرس آن روی ۴۱۰ تنظیم شد."
+
+#: ajax/admin-delete.php:192
+msgid "Deleted and its URL was redirected with 301."
+msgstr "حذف شد و آدرس آن با ۳۰۱ ریدایرکت شد."
+
+#: ajax/admin-export.php:43 ajax/admin-export.php:44 ajax/admin-export.php:45
+msgid "Basic"
+msgstr "پایه"
+
+#: ajax/admin-export.php:46
+msgid "Product type"
+msgstr "نوع محصول"
+
+#: ajax/admin-export.php:47
+msgid "Publish status"
+msgstr "وضعیت انتشار"
+
+#: ajax/admin-export.php:48
+msgid "Link"
+msgstr "لینک"
+
+#: ajax/admin-export.php:49
+msgid "Parent ID (for variations)"
+msgstr "ID والد (برای تنوع)"
+
+#: ajax/admin-export.php:50 ajax/admin-export.php:51 ajax/admin-export.php:52
+msgid "Price"
+msgstr "قیمت"
+
+#: ajax/admin-export.php:52
+msgid "Current price"
+msgstr "قیمت فعلی"
+
+#: ajax/admin-export.php:53
+msgid "Sale start (Jalali)"
+msgstr "شروع تخفیف (شمسی)"
+
+#: ajax/admin-export.php:54
+msgid "Sale end (Jalali)"
+msgstr "پایان تخفیف (شمسی)"
+
+#: ajax/admin-export.php:55
+msgid "Manage stock"
+msgstr "مدیریت موجودی"
+
+#: ajax/admin-export.php:55 ajax/admin-export.php:56 ajax/admin-export.php:57
+msgid "Stock"
+msgstr "موجودی"
+
+#: ajax/admin-export.php:57
+msgid "Stock status"
+msgstr "وضعیت موجودی"
+
+#: ajax/admin-export.php:58
+msgid "Categories"
+msgstr "دسته‌ها"
+
+#: ajax/admin-export.php:58 ajax/admin-export.php:59 ajax/admin-export.php:60
+msgid "Taxonomy"
+msgstr "طبقه‌بندی"
+
+#: ajax/admin-export.php:59
+msgid "Brands"
+msgstr "برند"
+
+#: ajax/admin-export.php:60
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: ajax/admin-export.php:61
+msgid "SEO title (Rank Math)"
+msgstr "عنوان سئو (Rank Math)"
+
+#: ajax/admin-export.php:61 ajax/admin-export.php:62 ajax/admin-export.php:63
+msgid "SEO"
+msgstr "سئو"
+
+#: ajax/admin-export.php:62
+msgid "Meta description (Rank Math)"
+msgstr "توضیحات متا (Rank Math)"
+
+#: ajax/admin-export.php:63
+msgid "Focus keyword"
+msgstr "کلمه‌ی کلیدی کانونی"
+
+#: ajax/admin-export.php:65
+msgid "Created date (Jalali)"
+msgstr "تاریخ ایجاد (شمسی)"
+
+#: ajax/admin-export.php:65 ajax/admin-export.php:66 ajax/admin-export.php:67
+msgid "Other"
+msgstr "سایر"
+
+#: ajax/admin-export.php:66
+msgid "Modified date (Jalali)"
+msgstr "تاریخ ویرایش (شمسی)"
+
+#: ajax/admin-export.php:67
+msgid "Last price update from this panel"
+msgstr "آخرین به‌روزرسانی قیمت از این پنل"
+
+#: ajax/admin-export.php:68
+msgid "Last updated by"
+msgstr "آخرین به‌روزرسانی توسط"
+
+#: ajax/admin-export.php:69
+msgid "Total sales"
+msgstr "تعداد فروش"
+
+#: ajax/admin-export.php:70
+msgid "Weight"
+msgstr "وزن"
+
+#: ajax/admin-export.php:71
+msgid "Dimensions (L×W×H)"
+msgstr "ابعاد (طول×عرض×ارتفاع)"
+
+#: ajax/admin-export.php:72
+msgid "Featured image URL"
+msgstr "لینک تصویر شاخص"
+
+#: ajax/admin-export.php:116 ajax/admin-export.php:135
+msgid "Yes"
+msgstr "بله"
+
+#: ajax/admin-export.php:116
+msgid "No"
+msgstr "خیر"
+
+#: ajax/admin-export.php:355
+msgid "The export session is invalid or has expired."
+msgstr "نشست خروجی نامعتبر یا منقضی شده است."
+
+#: ajax/admin-export.php:442
+msgid "The export file was not found or has expired."
+msgstr "فایل خروجی پیدا نشد یا منقضی شده است."
+
+#: ajax/admin-export.php:486
+msgid "A maximum of 30 templates is allowed."
+msgstr "حداکثر ۳۰ قالب مجاز است."
+
+#: ajax/admin-pricing.php:191
+msgid "All options"
+msgstr "همه موارد"
+
+#: ajax/admin-pricing.php:195
+msgid "Product variation"
+msgstr "تنوع محصول"
+
+#: ajax/admin-pricing.php:207
+msgid "Variable product not found."
+msgstr "محصول متغیر یافت نشد."
+
+#: ajax/admin-pricing.php:249
+msgid ""
+"The price of a variable product must be changed through its variations."
+msgstr "قیمت محصول متغیر باید از طریق تنوع‌های آن تغییر کند."
+
+#: ajax/admin-pricing.php:252
+msgid "The price of this product type cannot be changed from this panel."
+msgstr "قیمت این نوع محصول از این پنل قابل تغییر نیست."
+
+#: ajax/admin-pricing.php:261
+msgid "The regular price is invalid."
+msgstr "قیمت عادی نامعتبر است."
+
+#: ajax/admin-pricing.php:261
+msgid "The sale price is invalid."
+msgstr "قیمت تخفیف نامعتبر است."
+
+#: ajax/admin-pricing.php:261
+msgid "The stock quantity is invalid."
+msgstr "تعداد موجودی نامعتبر است."
+
+#: ajax/admin-pricing.php:267
+msgid "Values cannot be negative."
+msgstr "مقادیر نمی‌توانند منفی باشند."
+
+#: ajax/admin-pricing.php:271
+msgid ""
+"The regular price must not be empty (to prevent accidentally erasing the "
+"price)."
+msgstr "قیمت اصلی نباید خالی باشد (برای جلوگیری از پاک شدن ناخواسته‌ی قیمت)."
+
+#: ajax/admin-pricing.php:274
+msgid "The sale price must be lower than the regular price."
+msgstr "قیمت تخفیف‌خورده باید کمتر از قیمت اصلی باشد."
+
+#: ajax/admin-pricing.php:279
+msgid "This SKU is already used by another product."
+msgstr "این SKU قبلا برای محصول دیگری ثبت شده است."
+
+#: includes/class-epm-xlsx-writer.php:101
+msgid "The ZipArchive extension is not enabled on the server."
+msgstr "افزونه‌ی ZipArchive روی سرور فعال نیست."
+
+#: includes/class-epm-xlsx-writer.php:133
+msgid "Could not create the xlsx file."
+msgstr "ساخت فایل xlsx ممکن نشد."
+
+#: includes/class-epm-xlsx-writer.php:143
+msgid "Writing the xlsx file failed."
+msgstr "نوشتن فایل xlsx ناموفق بود."
+
+#: includes/core.php:26
+msgid "requires WooCommerce to run."
+msgstr "برای اجرا به ووکامرس نیاز دارد."
+
+#: includes/core.php:35
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Sold individually"
+msgstr "فروش تکی"
+
+msgid "Track stock quantity for this product"
+msgstr "ردیابی تعداد موجودی این محصول"
+
+msgid "Limit purchases to 1 item per order"
+msgstr "محدود کردن خرید به ۱ عدد در هر سفارش"
+
+msgid "an order"
+msgstr "یک سفارش"
+
+msgid "Edit prices, SKU and stock of all your products in one place"
+msgstr "ویرایش قیمت، SKU و موجودی همه‌ی محصولات در یک‌جا"
+
+msgid "Developed by %s — Hilawin Software Development Group"
+msgstr "توسعه‌یافته توسط %s — گروه توسعه نرم‌افزاری هیلاوین"
+
+msgid "Mohammadreza Basir"
+msgstr "محمدرضا بصیر"
+
+msgid "Product Changes Dashboard"
+msgstr "داشبورد تغییرات محصولات"
+
+msgid "Who changed prices and stock, when, and what the change was"
+msgstr "چه کسی، کی و چه چیزی را در قیمت و موجودی تغییر داده است"
+
+msgid "Product Changes"
+msgstr "تغییرات محصولات"
+
+msgid "Changes dashboard"
+msgstr "داشبورد تغییرات"
+
+msgid "Customer order"
+msgstr "سفارش مشتری"
+
+msgid "Unknown user"
+msgstr "کاربر ناشناس"
+
+msgid "On"
+msgstr "روشن"
+
+msgid "Off"
+msgstr "خاموش"
+
+msgid "Out of stock"
+msgstr "ناموجود"
+
+msgid "This change cannot be reverted."
+msgstr "این تغییر قابل بازگردانی نیست."
+
+msgid "The value has changed since then; it cannot be reverted automatically."
+msgstr "مقدار از آن زمان تغییر کرده و به‌صورت خودکار قابل بازگردانی نیست."
+
+msgid "Today"
+msgstr "امروز"
+
+msgid "Yesterday"
+msgstr "دیروز"
+
+msgid "Last 7 days"
+msgstr "۷ روز گذشته"
+
+msgid "Last 30 days"
+msgstr "۳۰ روز گذشته"
+
+msgid "All users"
+msgstr "همه کاربران"
+
+msgid "Customer orders"
+msgstr "سفارش‌های مشتری"
+
+msgid "All change types"
+msgstr "همه نوع تغییرها"
+
+msgid "Total changes"
+msgstr "کل تغییرها"
+
+msgid "Price changes"
+msgstr "تغییر قیمت"
+
+msgid "Stock changes"
+msgstr "تغییر موجودی"
+
+msgid "Products changed"
+msgstr "محصولات تغییرکرده"
+
+msgid "%s active users"
+msgstr "%s کاربر فعال"
+
+msgid "%s vs previous period"
+msgstr "%s نسبت به دوره قبل"
+
+msgid "No change"
+msgstr "بدون تغییر"
+
+msgid "Change trend"
+msgstr "روند تغییرات"
+
+msgid "Change types"
+msgstr "نوع تغییرها"
+
+msgid "Most active users"
+msgstr "فعال‌ترین کاربران"
+
+msgid "Last change %s"
+msgstr "آخرین تغییر %s"
+
+msgid "Most price changes: %1$s (%2$s times)"
+msgstr "بیشترین تغییر قیمت: %1$s (%2$s بار)"
+
+msgid "Change log"
+msgstr "گزارش تغییرات"
+
+msgid "%s records"
+msgstr "%s مورد"
+
+msgid "Search product name or SKU..."
+msgstr "جستجوی نام محصول یا SKU..."
+
+msgid "Time"
+msgstr "زمان"
+
+msgid "Product"
+msgstr "محصول"
+
+msgid "Type"
+msgstr "نوع"
+
+msgid "Change"
+msgstr "تغییر"
+
+msgid "By"
+msgstr "توسط"
+
+msgid "Revert"
+msgstr "بازگردانی"
+
+msgid "Reverted"
+msgstr "بازگردانی‌شده"
+
+msgid "Revert this change and restore the previous value?"
+msgstr "این تغییر بازگردانی شود و مقدار قبلی برگردد؟"
+
+msgid "The change was reverted."
+msgstr "تغییر بازگردانی شد."
+
+msgid "No changes in this period."
+msgstr "در این بازه تغییری ثبت نشده است."
+
+msgid "Showing %1$s to %2$s of %3$s"
+msgstr "نمایش %1$s تا %2$s از %3$s"
+
+msgid "Error loading data."
+msgstr "خطا در بارگذاری داده‌ها."
+
+msgid "Live updates · every 30 seconds"
+msgstr "به‌روزرسانی زنده · هر ۳۰ ثانیه"
+
+msgid "History is kept for %d days and then deleted automatically."
+msgstr "سابقه‌ی تغییرها %d روز نگهداری و سپس خودکار پاک می‌شود."
+
+msgid ""
+"Records older than the retention limit will be deleted in %1$s day(s) "
+"(oldest record: %2$s). Export what you need first."
+msgstr ""
+"سابقه‌های قدیمی‌تر از مدت نگهداری تا %1$s روز دیگر پاک می‌شوند (قدیمی‌ترین "
+"رکورد: %2$s). اگر لازم دارید، اول خروجی بگیرید."
+
+msgid ""
+"The oldest records (from %s) will be deleted in the next automatic cleanup "
+"(within 24 hours)."
+msgstr ""
+"قدیمی‌ترین سابقه‌ها (از %s) در پاک‌سازی خودکار بعدی (تا ۲۴ ساعت دیگر) حذف "
+"می‌شوند."
+
+msgid "Reverted change"
+msgstr "بازگردانی‌شده"
+
+msgid "The request was redirected to %s by another plugin or a security rule."
+msgstr "درخواست توسط افزونه‌ی دیگر یا یک قانون امنیتی به %s هدایت شد."
+
+msgid ""
+"Unexpected server response. Check the browser Network tab or the PHP error "
+"log."
+msgstr ""
+"پاسخ غیرمنتظره از سرور. تب Network مرورگر یا لاگ خطای PHP را بررسی کنید."
+
+msgid ""
+"The request was redirected to %1$s by another plugin or a security rule "
+"(%2$s)."
+msgstr ""
+"درخواست توسط افزونه‌ی دیگر یا یک قانون امنیتی (%2$s) به %1$s هدایت شد."
+
+msgid "unknown source"
+msgstr "منبع نامشخص"
+
+msgid "Items per page:"
+msgstr "تعداد موردها در هر برگه:"
+
+msgid "All stock statuses"
+msgstr "همه وضعیت‌های موجودی"

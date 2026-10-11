@@ -1,0 +1,885 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Expert Price & Stock Manager 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: admin/pricing-page.php:19 admin/pricing-page.php:118
+#: admin/pricing-page.php:142
+msgid "Product Pricing"
+msgstr ""
+
+#: admin/pricing-page.php:19
+msgid "Price Manager"
+msgstr ""
+
+#: admin/pricing-page.php:51
+msgid "Save / update"
+msgstr ""
+
+#: admin/pricing-page.php:52
+msgid "Save"
+msgstr ""
+
+#: admin/pricing-page.php:53 admin/pricing-page.php:226
+msgid "Delete product"
+msgstr ""
+
+#: admin/pricing-page.php:54
+msgid "Saved."
+msgstr ""
+
+#: admin/pricing-page.php:55
+msgid "Error"
+msgstr ""
+
+#: admin/pricing-page.php:56
+msgid "Server connection error. Please try again."
+msgstr ""
+
+#: admin/pricing-page.php:57
+msgid "Loading variations..."
+msgstr ""
+
+#: admin/pricing-page.php:58
+msgid "No variations found."
+msgstr ""
+
+#: admin/pricing-page.php:59
+msgid "Variation"
+msgstr ""
+
+#: admin/pricing-page.php:60 admin/pricing-page.php:262
+#: ajax/admin-export.php:50
+msgid "Regular price"
+msgstr ""
+
+#: admin/pricing-page.php:61 admin/pricing-page.php:263
+#: ajax/admin-export.php:51
+msgid "Sale price"
+msgstr ""
+
+#: admin/pricing-page.php:62 admin/pricing-page.php:264
+#: ajax/admin-export.php:56
+msgid "Stock quantity"
+msgstr ""
+
+#: admin/pricing-page.php:63 admin/pricing-page.php:265
+msgid "In stock"
+msgstr ""
+
+#: admin/pricing-page.php:64 admin/pricing-page.php:266
+msgid "Actions"
+msgstr ""
+
+#: admin/pricing-page.php:65
+msgid "Error loading variations."
+msgstr ""
+
+#: admin/pricing-page.php:66
+msgid "Previous"
+msgstr ""
+
+#: admin/pricing-page.php:68
+msgid "Page %1$s of %2$s (%3$s products)"
+msgstr ""
+
+#: admin/pricing-page.php:69
+msgid "Next"
+msgstr ""
+
+#: admin/pricing-page.php:70 admin/pricing-page.php:268
+msgid "Loading..."
+msgstr ""
+
+#: admin/pricing-page.php:71
+msgid "Error loading products."
+msgstr ""
+
+#: admin/pricing-page.php:72
+msgid "No products found."
+msgstr ""
+
+#: admin/pricing-page.php:73
+msgid "View"
+msgstr ""
+
+#: admin/pricing-page.php:74
+msgid "Edit"
+msgstr ""
+
+#: admin/pricing-page.php:75
+msgid "Add a redirect in Rank Math"
+msgstr ""
+
+#: admin/pricing-page.php:76
+msgid "Redirect"
+msgstr ""
+
+#: admin/pricing-page.php:78
+msgid "%s variations"
+msgstr ""
+
+#: admin/pricing-page.php:80
+msgid "Last updated: %1$s by %2$s"
+msgstr ""
+
+#: admin/pricing-page.php:82
+msgid "Last updated: %s"
+msgstr ""
+
+#: admin/pricing-page.php:84
+msgid "The price of this product type (%s) cannot be edited from this panel."
+msgstr ""
+
+#: admin/pricing-page.php:85
+msgid ""
+"This product has several variations; set the price and stock of each "
+"variation in the box below."
+msgstr ""
+
+#: admin/pricing-page.php:86
+msgid "Server connection error."
+msgstr ""
+
+#: admin/pricing-page.php:87 admin/pricing-page.php:241
+msgid "Move to trash"
+msgstr ""
+
+#: admin/pricing-page.php:88
+msgid "Delete permanently + set 410"
+msgstr ""
+
+#: admin/pricing-page.php:89
+msgid "Delete permanently + 301 to category"
+msgstr ""
+
+#: admin/pricing-page.php:90
+msgid "Delete permanently + 301 to destination"
+msgstr ""
+
+#: admin/pricing-page.php:91
+msgid "Checking..."
+msgstr ""
+
+#: admin/pricing-page.php:93
+msgid "URL: %s"
+msgstr ""
+
+#: admin/pricing-page.php:94
+msgid ""
+" — The Rank Math Redirections module is not active; only moving to the trash"
+" (without a redirect) is possible."
+msgstr ""
+
+#: admin/pricing-page.php:96
+msgid ""
+"This product appears in %s existing orders. Deleting it permanently breaks "
+"the product link in past orders and reports."
+msgstr ""
+
+#: admin/pricing-page.php:97
+msgid "Enter the redirect destination URL."
+msgstr ""
+
+#: admin/pricing-page.php:98
+msgid "The destination URL must start with http:// or https://."
+msgstr ""
+
+#: admin/pricing-page.php:99
+msgid ""
+"The product will be deleted permanently and cannot be restored. Continue?"
+msgstr ""
+
+#: admin/pricing-page.php:100 admin/pricing-page.php:207
+msgid "— Select a template —"
+msgstr ""
+
+#: admin/pricing-page.php:101 ajax/admin-export.php:473
+msgid "Enter a template name."
+msgstr ""
+
+#: admin/pricing-page.php:102
+msgid "Template saved."
+msgstr ""
+
+#: admin/pricing-page.php:103
+msgid "Template deleted."
+msgstr ""
+
+#: admin/pricing-page.php:104 ajax/admin-export.php:199
+msgid "Select at least one column."
+msgstr ""
+
+#: admin/pricing-page.php:105
+msgid "Preparing..."
+msgstr ""
+
+#: admin/pricing-page.php:106
+msgid "Error building the export."
+msgstr ""
+
+#: admin/pricing-page.php:107
+msgid "No products found for these filters."
+msgstr ""
+
+#: admin/pricing-page.php:109
+msgid "%1$s rows out of %2$s products"
+msgstr ""
+
+#: admin/pricing-page.php:111
+msgid "Download XLSX file (%s rows)"
+msgstr ""
+
+#: admin/pricing-page.php:118
+msgid "Please install and activate WooCommerce first."
+msgstr ""
+
+#: admin/pricing-page.php:122
+msgid "This page is only accessible to shop managers and administrators."
+msgstr ""
+
+#: admin/pricing-page.php:145
+msgid "Search by product name or URL/slug..."
+msgstr ""
+
+#: admin/pricing-page.php:147
+msgid "All categories"
+msgstr ""
+
+#: admin/pricing-page.php:155
+msgid "All brands"
+msgstr ""
+
+#: admin/pricing-page.php:163
+msgid "Name (A–Z)"
+msgstr ""
+
+#: admin/pricing-page.php:164
+msgid "Name (Z–A)"
+msgstr ""
+
+#: admin/pricing-page.php:165
+msgid "Price (low to high)"
+msgstr ""
+
+#: admin/pricing-page.php:166
+msgid "Price (high to low)"
+msgstr ""
+
+#: admin/pricing-page.php:168
+msgid "Export XLSX"
+msgstr ""
+
+#: admin/pricing-page.php:172
+msgid "Export products to XLSX"
+msgstr ""
+
+#: admin/pricing-page.php:173
+msgid ""
+"The search, category and brand filters of this page apply to the export. "
+"Choose columns and reorder them with the arrows."
+msgstr ""
+
+#: admin/pricing-page.php:176
+msgid "Columns"
+msgstr ""
+
+#: admin/pricing-page.php:186
+msgid "Move up"
+msgstr ""
+
+#: admin/pricing-page.php:186
+msgid "Move down"
+msgstr ""
+
+#: admin/pricing-page.php:190
+msgid "Custom meta (meta keys separated by comma or space, e.g. ACF fields):"
+msgstr ""
+
+#: admin/pricing-page.php:194
+msgid "Filters and options"
+msgstr ""
+
+#: admin/pricing-page.php:195
+msgid "Publish status:"
+msgstr ""
+
+#: admin/pricing-page.php:196
+msgid "Published"
+msgstr ""
+
+#: admin/pricing-page.php:197
+msgid "Draft"
+msgstr ""
+
+#: admin/pricing-page.php:198
+msgid "Private"
+msgstr ""
+
+#: admin/pricing-page.php:199
+msgid "Pending"
+msgstr ""
+
+#: admin/pricing-page.php:201
+msgid "Stock:"
+msgstr ""
+
+#: admin/pricing-page.php:201
+msgid "All"
+msgstr ""
+
+#: admin/pricing-page.php:201
+msgid "In stock only"
+msgstr ""
+
+#: admin/pricing-page.php:201
+msgid "Out of stock only"
+msgstr ""
+
+#: admin/pricing-page.php:202
+msgid "Only:"
+msgstr ""
+
+#: admin/pricing-page.php:202
+msgid "All products"
+msgstr ""
+
+#: admin/pricing-page.php:202
+msgid "On sale"
+msgstr ""
+
+#: admin/pricing-page.php:202
+msgid "Without price"
+msgstr ""
+
+#: admin/pricing-page.php:202
+msgid "Without SKU"
+msgstr ""
+
+#: admin/pricing-page.php:203
+msgid "Put each variation of variable products on its own row"
+msgstr ""
+
+#: admin/pricing-page.php:205
+msgid "Saved templates"
+msgstr ""
+
+#: admin/pricing-page.php:208
+msgid "Delete template"
+msgstr ""
+
+#: admin/pricing-page.php:211
+msgid "New template name"
+msgstr ""
+
+#: admin/pricing-page.php:212
+msgid "Save columns as template"
+msgstr ""
+
+#: admin/pricing-page.php:217
+msgid "Build export file"
+msgstr ""
+
+#: admin/pricing-page.php:229
+msgid "Create a redirect for this product URL?"
+msgstr ""
+
+#: admin/pricing-page.php:230
+msgid "No — just move it to the trash (can be restored)"
+msgstr ""
+
+#: admin/pricing-page.php:231
+msgid "Yes — delete the product permanently and create a redirect (Rank Math)"
+msgstr ""
+
+#: admin/pricing-page.php:233
+msgid "Redirect type:"
+msgstr ""
+
+#: admin/pricing-page.php:234
+msgid "410 — this page is permanently gone (no destination)"
+msgstr ""
+
+#: admin/pricing-page.php:235
+msgid "301 — redirect to the product category"
+msgstr ""
+
+#: admin/pricing-page.php:236
+msgid "301 — redirect to a custom URL"
+msgstr ""
+
+#: admin/pricing-page.php:242
+msgid "Cancel"
+msgstr ""
+
+#: admin/pricing-page.php:260 ajax/admin-export.php:44
+msgid "Product name"
+msgstr ""
+
+#: ajax/admin-delete.php:67 ajax/admin-delete.php:95 ajax/admin-export.php:185
+msgid "Unauthorized access."
+msgstr ""
+
+#: ajax/admin-delete.php:71 ajax/admin-delete.php:99
+#: ajax/admin-pricing.php:246
+msgid "Product not found."
+msgstr ""
+
+#: ajax/admin-delete.php:104
+msgid "Invalid delete type."
+msgstr ""
+
+#: ajax/admin-delete.php:111
+msgid "Could not move the product to the trash."
+msgstr ""
+
+#: ajax/admin-delete.php:115
+msgid "Moved to the trash."
+msgstr ""
+
+#: ajax/admin-delete.php:123
+msgid ""
+"The Rank Math Redirections module is not active. Activate it first (the "
+"product was not deleted)."
+msgstr ""
+
+#: ajax/admin-delete.php:129
+msgid ""
+"No valid URL was found for this product; no redirect was created and the "
+"product was not deleted."
+msgstr ""
+
+#: ajax/admin-delete.php:144
+msgid "The redirect destination URL is invalid (the product was not deleted)."
+msgstr ""
+
+#: ajax/admin-delete.php:147
+msgid "The redirect destination cannot be the product itself."
+msgstr ""
+
+#: ajax/admin-delete.php:168 ajax/admin-delete.php:171
+msgid ""
+"Creating the redirect in Rank Math failed; the product was not deleted."
+msgstr ""
+
+#: ajax/admin-delete.php:184
+msgid ""
+"The product could not be deleted. Check the redirect created for the URL /%s"
+" in Rank Math."
+msgstr ""
+
+#: ajax/admin-delete.php:192
+msgid "Deleted and its URL was set to 410."
+msgstr ""
+
+#: ajax/admin-delete.php:192
+msgid "Deleted and its URL was redirected with 301."
+msgstr ""
+
+#: ajax/admin-export.php:43 ajax/admin-export.php:44 ajax/admin-export.php:45
+msgid "Basic"
+msgstr ""
+
+#: ajax/admin-export.php:46
+msgid "Product type"
+msgstr ""
+
+#: ajax/admin-export.php:47
+msgid "Publish status"
+msgstr ""
+
+#: ajax/admin-export.php:48
+msgid "Link"
+msgstr ""
+
+#: ajax/admin-export.php:49
+msgid "Parent ID (for variations)"
+msgstr ""
+
+#: ajax/admin-export.php:50 ajax/admin-export.php:51 ajax/admin-export.php:52
+msgid "Price"
+msgstr ""
+
+#: ajax/admin-export.php:52
+msgid "Current price"
+msgstr ""
+
+#: ajax/admin-export.php:53
+msgid "Sale start (Jalali)"
+msgstr ""
+
+#: ajax/admin-export.php:54
+msgid "Sale end (Jalali)"
+msgstr ""
+
+#: ajax/admin-export.php:55
+msgid "Manage stock"
+msgstr ""
+
+#: ajax/admin-export.php:55 ajax/admin-export.php:56 ajax/admin-export.php:57
+msgid "Stock"
+msgstr ""
+
+#: ajax/admin-export.php:57
+msgid "Stock status"
+msgstr ""
+
+#: ajax/admin-export.php:58
+msgid "Categories"
+msgstr ""
+
+#: ajax/admin-export.php:58 ajax/admin-export.php:59 ajax/admin-export.php:60
+msgid "Taxonomy"
+msgstr ""
+
+#: ajax/admin-export.php:59
+msgid "Brands"
+msgstr ""
+
+#: ajax/admin-export.php:60
+msgid "Tags"
+msgstr ""
+
+#: ajax/admin-export.php:61
+msgid "SEO title (Rank Math)"
+msgstr ""
+
+#: ajax/admin-export.php:61 ajax/admin-export.php:62 ajax/admin-export.php:63
+msgid "SEO"
+msgstr ""
+
+#: ajax/admin-export.php:62
+msgid "Meta description (Rank Math)"
+msgstr ""
+
+#: ajax/admin-export.php:63
+msgid "Focus keyword"
+msgstr ""
+
+#: ajax/admin-export.php:65
+msgid "Created date (Jalali)"
+msgstr ""
+
+#: ajax/admin-export.php:65 ajax/admin-export.php:66 ajax/admin-export.php:67
+msgid "Other"
+msgstr ""
+
+#: ajax/admin-export.php:66
+msgid "Modified date (Jalali)"
+msgstr ""
+
+#: ajax/admin-export.php:67
+msgid "Last price update from this panel"
+msgstr ""
+
+#: ajax/admin-export.php:68
+msgid "Last updated by"
+msgstr ""
+
+#: ajax/admin-export.php:69
+msgid "Total sales"
+msgstr ""
+
+#: ajax/admin-export.php:70
+msgid "Weight"
+msgstr ""
+
+#: ajax/admin-export.php:71
+msgid "Dimensions (L×W×H)"
+msgstr ""
+
+#: ajax/admin-export.php:72
+msgid "Featured image URL"
+msgstr ""
+
+#: ajax/admin-export.php:116 ajax/admin-export.php:135
+msgid "Yes"
+msgstr ""
+
+#: ajax/admin-export.php:116
+msgid "No"
+msgstr ""
+
+#: ajax/admin-export.php:355
+msgid "The export session is invalid or has expired."
+msgstr ""
+
+#: ajax/admin-export.php:442
+msgid "The export file was not found or has expired."
+msgstr ""
+
+#: ajax/admin-export.php:486
+msgid "A maximum of 30 templates is allowed."
+msgstr ""
+
+#: ajax/admin-pricing.php:191
+msgid "All options"
+msgstr ""
+
+#: ajax/admin-pricing.php:195
+msgid "Product variation"
+msgstr ""
+
+#: ajax/admin-pricing.php:207
+msgid "Variable product not found."
+msgstr ""
+
+#: ajax/admin-pricing.php:249
+msgid ""
+"The price of a variable product must be changed through its variations."
+msgstr ""
+
+#: ajax/admin-pricing.php:252
+msgid "The price of this product type cannot be changed from this panel."
+msgstr ""
+
+#: ajax/admin-pricing.php:261
+msgid "The regular price is invalid."
+msgstr ""
+
+#: ajax/admin-pricing.php:261
+msgid "The sale price is invalid."
+msgstr ""
+
+#: ajax/admin-pricing.php:261
+msgid "The stock quantity is invalid."
+msgstr ""
+
+#: ajax/admin-pricing.php:267
+msgid "Values cannot be negative."
+msgstr ""
+
+#: ajax/admin-pricing.php:271
+msgid ""
+"The regular price must not be empty (to prevent accidentally erasing the "
+"price)."
+msgstr ""
+
+#: ajax/admin-pricing.php:274
+msgid "The sale price must be lower than the regular price."
+msgstr ""
+
+#: ajax/admin-pricing.php:279
+msgid "This SKU is already used by another product."
+msgstr ""
+
+#: includes/class-epm-xlsx-writer.php:101
+msgid "The ZipArchive extension is not enabled on the server."
+msgstr ""
+
+#: includes/class-epm-xlsx-writer.php:133
+msgid "Could not create the xlsx file."
+msgstr ""
+
+#: includes/class-epm-xlsx-writer.php:143
+msgid "Writing the xlsx file failed."
+msgstr ""
+
+#: includes/core.php:26
+msgid "requires WooCommerce to run."
+msgstr ""
+
+#: includes/core.php:35
+msgid "Settings"
+msgstr ""
+
+msgid "Sold individually"
+msgstr ""
+
+msgid "Track stock quantity for this product"
+msgstr ""
+
+msgid "Limit purchases to 1 item per order"
+msgstr ""
+
+msgid "an order"
+msgstr ""
+
+msgid "Edit prices, SKU and stock of all your products in one place"
+msgstr ""
+
+msgid "Developed by %s — Hilawin Software Development Group"
+msgstr ""
+
+msgid "Mohammadreza Basir"
+msgstr ""
+
+msgid "Product Changes Dashboard"
+msgstr ""
+
+msgid "Who changed prices and stock, when, and what the change was"
+msgstr ""
+
+msgid "Product Changes"
+msgstr ""
+
+msgid "Changes dashboard"
+msgstr ""
+
+msgid "Customer order"
+msgstr ""
+
+msgid "Unknown user"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Out of stock"
+msgstr ""
+
+msgid "This change cannot be reverted."
+msgstr ""
+
+msgid "The value has changed since then; it cannot be reverted automatically."
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "Last 7 days"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "All users"
+msgstr ""
+
+msgid "Customer orders"
+msgstr ""
+
+msgid "All change types"
+msgstr ""
+
+msgid "Total changes"
+msgstr ""
+
+msgid "Price changes"
+msgstr ""
+
+msgid "Stock changes"
+msgstr ""
+
+msgid "Products changed"
+msgstr ""
+
+msgid "%s active users"
+msgstr ""
+
+msgid "%s vs previous period"
+msgstr ""
+
+msgid "No change"
+msgstr ""
+
+msgid "Change trend"
+msgstr ""
+
+msgid "Change types"
+msgstr ""
+
+msgid "Most active users"
+msgstr ""
+
+msgid "Last change %s"
+msgstr ""
+
+msgid "Most price changes: %1$s (%2$s times)"
+msgstr ""
+
+msgid "Change log"
+msgstr ""
+
+msgid "%s records"
+msgstr ""
+
+msgid "Search product name or SKU..."
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Change"
+msgstr ""
+
+msgid "By"
+msgstr ""
+
+msgid "Revert"
+msgstr ""
+
+msgid "Reverted"
+msgstr ""
+
+msgid "Revert this change and restore the previous value?"
+msgstr ""
+
+msgid "The change was reverted."
+msgstr ""
+
+msgid "No changes in this period."
+msgstr ""
+
+msgid "Showing %1$s to %2$s of %3$s"
+msgstr ""
+
+msgid "Error loading data."
+msgstr ""
+
+msgid "Live updates · every 30 seconds"
+msgstr ""
+
+msgid "History is kept for %d days and then deleted automatically."
+msgstr ""
+
+msgid ""
+"Records older than the retention limit will be deleted in %1$s day(s) "
+"(oldest record: %2$s). Export what you need first."
+msgstr ""
+
+msgid ""
+"The oldest records (from %s) will be deleted in the next automatic cleanup "
+"(within 24 hours)."
+msgstr ""
+
+msgid "Reverted change"
+msgstr ""
+
+msgid "The request was redirected to %s by another plugin or a security rule."
+msgstr ""
+
+msgid ""
+"Unexpected server response. Check the browser Network tab or the PHP error "
+"log."
+msgstr ""
+
+msgid ""
+"The request was redirected to %1$s by another plugin or a security rule "
+"(%2$s)."
+msgstr ""
+
+msgid "unknown source"
+msgstr ""
+
+msgid "Items per page:"
+msgstr ""
+
+msgid "All stock statuses"
+msgstr ""

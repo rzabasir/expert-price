@@ -1,0 +1,75 @@
+/* Change history dashboard (uses the shared Hilawin tokens from admin.css). */
+.epm-changes .epm-card { background: #fff; border: 1px solid var(--epm-line); border-radius: 14px; padding: 16px 18px; box-shadow: 0 1px 2px rgba(20,38,63,.04); }
+.epm-changes h3 { margin: 0 0 12px; font-size: 14px; display: flex; justify-content: space-between; align-items: center; gap: 8px; color: var(--epm-ink); }
+.epm-changes h3 small { color: var(--epm-mut); font-weight: 400; }
+.epm-ch-bar { display: flex; gap: 10px; align-items: center; margin: 14px 0; flex-wrap: wrap; }
+.epm-ch-sp { flex: 1; }
+.epm-seg { display: flex; background: #fff; border: 1px solid var(--epm-line); border-radius: 10px; padding: 3px; }
+.epm-seg button { border: 0; background: none; padding: 6px 16px; border-radius: 8px; font: inherit; color: var(--epm-mut); cursor: pointer; }
+.epm-seg button.on { background: var(--epm-navy); color: #fff; font-weight: 700; }
+.epm-live { display: inline-flex; align-items: center; gap: 8px; color: var(--epm-mut); font-size: 12px; }
+.epm-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--epm-green); box-shadow: 0 0 0 4px rgba(79,211,122,.25); }
+.epm-ch-kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.epm-kpi { display: flex; justify-content: space-between; align-items: flex-end; }
+.epm-kpi small { color: var(--epm-mut); }
+.epm-kpi .n { font-size: 28px; font-weight: 800; line-height: 1.2; margin: 2px 0; }
+.epm-chip { display: inline-block; border-radius: 999px; padding: 1px 9px; font-size: 11px; font-weight: 700; }
+.epm-chip.up { background: var(--epm-gsoft); color: #12803a; }
+.epm-chip.dn { background: #fdeaea; color: #c62828; }
+.epm-chip.nu { background: #eef0f4; color: var(--epm-mut); }
+.epm-ch-grid { display: grid; grid-template-columns: 1.7fr 1fr 1fr; gap: 12px; margin-top: 12px; }
+.epm-chart { display: flex; align-items: flex-end; gap: 10px; height: 180px; border-bottom: 1px solid var(--epm-line); }
+.epm-col { flex: 1; height: 100%; display: flex; align-items: flex-end; justify-content: center; }
+.epm-stack { width: 60%; max-width: 44px; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; }
+.epm-stack i { display: block; width: 100%; min-height: 0; }
+.epm-stack i.p { background: var(--epm-blue); order: 3; }
+.epm-stack i.s { background: #f59e0b; order: 2; }
+.epm-stack i.o { background: var(--epm-green); order: 1; border-radius: 5px 5px 0 0; }
+.epm-xl { display: flex; gap: 10px; margin-top: 6px; color: var(--epm-mut); font-size: 11px; }
+.epm-xl div { flex: 1; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.epm-xl b { display: block; color: var(--epm-ink); font-size: 12px; }
+.epm-leg { display: flex; gap: 16px; font-size: 11px; color: var(--epm-mut); margin-top: 10px; }
+.epm-leg u, .epm-dl u { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-inline-end: 5px; text-decoration: none; }
+.epm-donut { display: flex; align-items: center; gap: 16px; }
+.epm-donut svg { flex: none; }
+.epm-dl { flex: 1; }
+.epm-dl div { display: flex; justify-content: space-between; gap: 14px; padding: 3px 0; }
+.epm-top { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--epm-line); color: var(--epm-mut); }
+.epm-user { display: flex; align-items: center; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--epm-line); }
+.epm-user:last-child { border: 0; }
+.epm-av { width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #fff; flex: none; }
+.epm-user .m { flex: 1; min-width: 0; }
+.epm-user .m small { color: var(--epm-mut); display: block; }
+.epm-user .meter { height: 5px; background: #eef0f4; border-radius: 3px; margin-top: 4px; }
+.epm-user .meter i { display: block; height: 100%; border-radius: 3px; background: var(--epm-green); }
+.epm-user .cnt { font-weight: 800; }
+.epm-empty { color: var(--epm-mut); text-align: center; padding: 18px 0; margin: 0; }
+.epm-ch-logcard { margin-top: 12px; }
+.epm-ch-tablewrap { overflow-x: auto; }
+.epm-changes table { width: 100%; border-collapse: collapse; }
+.epm-changes th { text-align: start; color: var(--epm-mut); font-weight: 600; padding: 9px 10px; background: #f8f9fb; font-size: 12px; }
+.epm-changes td { padding: 11px 10px; border-bottom: 1px solid var(--epm-line); vertical-align: middle; }
+.epm-changes tbody tr:last-child td { border: 0; }
+.epm-changes tbody tr:hover { background: #fafbfd; }
+.epm-changes td small { display: block; color: var(--epm-mut); }
+.epm-prod { display: flex; align-items: center; gap: 10px; }
+.epm-th { width: 36px; height: 36px; border-radius: 8px; background: linear-gradient(135deg, #dfe7f3, #c6d4ea); flex: none; object-fit: cover; }
+.epm-prod a { color: var(--epm-ink); text-decoration: none; font-weight: 600; }
+.epm-prod a:hover { text-decoration: underline; }
+.epm-tag { border-radius: 6px; padding: 2px 9px; font-size: 11px; font-weight: 700; white-space: nowrap; }
+.epm-tag.t-p { background: #e8effe; color: #1f55c9; }
+.epm-tag.t-s { background: #fff3dc; color: #a15c00; }
+.epm-tag.t-o { background: var(--epm-gsoft); color: #12803a; }
+.epm-chg { direction: ltr; unicode-bidi: embed; white-space: nowrap; }
+.epm-chg s { color: var(--epm-mut); }
+.epm-chg em { font-style: normal; margin-inline-start: 6px; }
+.epm-who { display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+.epm-who .epm-av { width: 24px; height: 24px; font-size: 11px; }
+.epm-undo { border: 1px solid var(--epm-line); background: #fff; border-radius: 8px; padding: 3px 10px; font: inherit; font-size: 12px; color: var(--epm-navy); cursor: pointer; }
+.epm-undo:hover { background: #f3f5f8; }
+.epm-ch-pager { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; color: var(--epm-mut); font-size: 12px; }
+.epm-ch-retention { color: var(--epm-mut); font-size: 12px; margin: 10px 4px 0; }
+.epm-ch-warn, .epm-ch-ok { border-radius: 10px; padding: 10px 14px; margin: 10px 0; font-size: 13px; }
+.epm-ch-warn { background: #fff7e6; border: 1px solid #ffd591; color: #8a5a00; }
+.epm-ch-ok { background: var(--epm-gsoft); border: 1px solid #b7ebc9; color: #12803a; }
+@media (max-width: 1100px) { .epm-ch-grid { grid-template-columns: 1fr; } .epm-ch-kpis { grid-template-columns: repeat(2, 1fr); } }

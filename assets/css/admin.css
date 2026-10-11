@@ -1,0 +1,311 @@
+.epm-admin-pricing .epm-toolbar {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin: 12px 0;
+}
+.epm-settings-box {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 14px;
+}
+.epm-settings-box summary {
+    cursor: pointer;
+    font-weight: 700;
+    padding: 4px 0;
+}
+.epm-table-scroll {
+    overflow-x: auto;
+    border: 1px solid #dcdcde;
+    background: #fff;
+}
+.epm-resizable-table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+.epm-resizable-table th,
+.epm-resizable-table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+.epm-resizable-table td input[type="text"],
+.epm-resizable-table td input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+.epm-name-cell {
+    white-space: normal !important;
+}
+.epm-product-name {
+    font-weight: 600;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.epm-row-links {
+    font-size: 12px;
+}
+.epm-row-links a {
+    text-decoration: none;
+}
+.epm-row-links a:hover {
+    text-decoration: underline;
+}
+.epm-resizer {
+    position: absolute;
+    top: 0;
+    inset-inline-end: 0;
+    width: 10px;
+    height: 100%;
+    cursor: col-resize;
+    user-select: none;
+    touch-action: none;
+    background: transparent;
+    border-inline-end: 2px solid #dcdcde;
+}
+.epm-resizer:hover,
+.epm-resizing .epm-resizer:active {
+    background: #c3c4c7;
+    border-inline-end-color: #2271b1;
+}
+body.epm-resizing { cursor: col-resize; user-select: none; }
+.epm-variable-placeholder {
+    color: #646970;
+    font-size: 12px;
+}
+.link-button {
+    background: none;
+    border: 0;
+    padding: 0;
+    color: var(--wp-admin-theme-color, #2271b1);
+    cursor: pointer;
+    font-size: 12px;
+}
+.link-button:hover {
+    text-decoration: underline;
+}
+.epm-variation-row td {
+    background: #f6f7f7;
+    padding: 10px 14px !important;
+    white-space: normal !important;
+}
+.epm-variation-box {
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    background: #fff;
+    padding: 6px;
+    overflow-x: auto;
+}
+.epm-variation-loading {
+    margin: 6px;
+    color: #646970;
+    font-size: 12px;
+}
+.epm-variation-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.epm-variation-table th,
+.epm-variation-table td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #eee;
+    text-align: start;
+    white-space: nowrap;
+}
+.epm-variation-table input[type="text"],
+.epm-variation-table input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+.epm-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+}
+.epm-pagination-info {
+    color: #646970;
+    font-size: 13px;
+}
+
+/* ---- XLSX export, delete dialog, last-updated line ---- */
+.epm-updated { font-size: 11px; color: #646970; margin-top: 2px; }
+.epm-export-panel { background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 12px 16px; margin: 12px 0; }
+.epm-export-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.epm-export-cols { margin: 0; max-height: 320px; overflow-y: auto; border: 1px solid #dcdcde; border-radius: 3px; }
+.epm-export-cols li { display: flex; align-items: center; gap: 8px; margin: 0; padding: 4px 8px; border-bottom: 1px solid #f0f0f1; }
+.epm-export-cols li label { flex: 1; }
+.epm-col-group { font-size: 11px; color: #787c82; }
+.epm-col-move button { cursor: pointer; text-decoration: none; }
+.epm-progress { height: 8px; background: #dcdcde; border-radius: 4px; overflow: hidden; max-width: 420px; }
+.epm-progress > div { height: 100%; width: 0; background: #2271b1; transition: width .2s; }
+.epm-modal { position: fixed; inset: 0; background: rgba(0, 0, 0, .5); z-index: 100000; align-items: center; justify-content: center; }
+.epm-modal-box { background: #fff; padding: 16px 20px; border-radius: 6px; width: 520px; max-width: 92vw; max-height: 90vh; overflow: auto; }
+.epm-delete-name { font-weight: 600; }
+.epm-delete-warning { color: #b32d2e; }
+button.epm-delete { color: #b32d2e; border-color: #b32d2e; }
+@media (max-width: 900px) { .epm-export-grid { grid-template-columns: 1fr; } }
+
+/* ---- Inherit the font from the theme/admin; smaller stock box ---- */
+.epm-admin-pricing,
+.epm-admin-pricing * {
+    font-family: inherit;
+}
+.epm-admin-pricing input,
+.epm-admin-pricing select,
+.epm-admin-pricing button,
+.epm-admin-pricing textarea {
+    font-family: inherit !important;
+}
+.epm-resizable-table td input.epm-stock {
+    width: 50% !important;
+    min-width: 52px;
+    text-align: center;
+}
+.epm-variation-table td input.epm-stock {
+    width: 56px !important;
+    text-align: center;
+}
+
+/* ---- Icon buttons ---- */
+.epm-ico { display: block; }
+.epm-actions { white-space: nowrap; }
+.epm-icon-btn { display: inline-flex !important; align-items: center; justify-content: center; padding: 3px 7px !important; min-height: 30px; }
+.epm-icon-btn.epm-save { color: #2271b1; }
+.epm-icon-btn.epm-delete { color: #b32d2e; border-color: #b32d2e; }
+.epm-icon-btn.epm-delete:hover { background: #fcf0f1; }
+.epm-icon-btn.is-loading svg { animation: epm-spin .8s linear infinite; }
+@keyframes epm-spin { to { transform: rotate(360deg); } }
+
+/* ---- Vertically centre every cell and its controls ---- */
+.epm-resizable-table th,
+.epm-resizable-table td,
+.epm-variation-table th,
+.epm-variation-table td {
+    vertical-align: middle;
+}
+.epm-resizable-table td input[type="checkbox"],
+.epm-variation-table td input[type="checkbox"],
+.epm-resizable-table td input[type="text"],
+.epm-resizable-table td input[type="number"],
+.epm-variation-table td input[type="text"],
+.epm-variation-table td input[type="number"] {
+    margin: 0;
+    vertical-align: middle;
+}
+
+/* ---- Manage stock / sold individually checkboxes ---- */
+.epm-resizable-table td input.epm-manage,
+.epm-resizable-table td input.epm-single,
+.epm-variation-table td input.epm-manage { display: block; margin-inline: auto; }
+
+/* =====================================================================
+   Hilawin theme (shared by all plugin screens)
+   ===================================================================== */
+.epm-admin-pricing {
+    --epm-navy: #14263f; --epm-navy2: #1f3d63; --epm-green: #4fd37a; --epm-gsoft: #e6f9ed;
+    --epm-line: #e6e9ee; --epm-mut: #6b7280; --epm-ink: #1a2233; --epm-blue: #2f6fed;
+    color: var(--epm-ink);
+}
+.epm-hero {
+    position: relative; overflow: hidden; display: flex; align-items: center; gap: 16px;
+    background: linear-gradient(115deg, var(--epm-navy), var(--epm-navy2));
+    color: #fff; border-radius: 14px; padding: 20px 24px; margin: 14px 0;
+}
+.epm-hero::before {
+    content: ""; position: absolute; inset-inline-start: -60px; top: -80px; width: 260px; height: 260px;
+    border-radius: 50%; background: radial-gradient(circle, rgba(79,211,122,.35), transparent 65%);
+}
+.epm-hero-logo { height: 52px; width: auto; position: relative; }
+.epm-hero-text { position: relative; }
+.epm-admin-pricing .epm-hero h1 { margin: 0; padding: 0; color: #fff; font-size: 21px; font-weight: 700; line-height: 1.4; }
+.epm-hero p { margin: 2px 0 0; opacity: .75; font-size: 12px; color: #fff; }
+
+.epm-admin-pricing .epm-toolbar {
+    align-items: center; flex-wrap: wrap; background: #fff; border: 1px solid var(--epm-line);
+    border-radius: 14px; padding: 12px 14px; box-shadow: 0 1px 2px rgba(20,38,63,.04);
+}
+.epm-admin-pricing .epm-toolbar #epm-admin-search { flex: 1; min-width: 220px; }
+.epm-admin-pricing input[type="text"],
+.epm-admin-pricing input[type="number"],
+.epm-admin-pricing input[type="url"],
+.epm-admin-pricing select {
+    border: 1px solid var(--epm-line); border-radius: 10px; min-height: 34px; background-color: #fff; color: var(--epm-ink);
+}
+.epm-admin-pricing input:focus,
+.epm-admin-pricing select:focus { border-color: var(--epm-blue); box-shadow: 0 0 0 2px rgba(47,111,237,.18); outline: 0; }
+.epm-admin-pricing .button { border-radius: 10px; min-height: 34px; border-color: var(--epm-navy); color: var(--epm-navy); background: #fff; font-weight: 600; }
+.epm-admin-pricing .button:hover { background: #f3f5f8; border-color: var(--epm-navy); color: var(--epm-navy); }
+.epm-admin-pricing .button-primary { background: var(--epm-navy); border-color: var(--epm-navy); color: #fff; }
+.epm-admin-pricing .button-primary:hover { background: var(--epm-navy2); color: #fff; }
+
+.epm-table-scroll { border: 1px solid var(--epm-line); border-radius: 14px; box-shadow: 0 1px 2px rgba(20,38,63,.04); }
+.epm-admin-pricing .epm-resizable-table { border: 0; box-shadow: none; }
+.epm-admin-pricing .epm-resizable-table thead th {
+    background: #f8f9fb; color: var(--epm-mut); font-weight: 600; font-size: 12px;
+    border-bottom: 1px solid var(--epm-line); padding: 12px 10px;
+}
+.epm-admin-pricing .epm-resizable-table tbody td { border-bottom: 1px solid var(--epm-line); padding: 10px; }
+.epm-admin-pricing .epm-resizable-table.striped > tbody > :nth-child(odd) { background: #fff; }
+.epm-admin-pricing .epm-resizable-table tbody tr:hover { background: #fafbfd; }
+.epm-product-name { color: var(--epm-ink); }
+.epm-updated { display: inline-block; background: var(--epm-gsoft); color: #12803a; border-radius: 8px; padding: 1px 9px; font-size: 11px; margin-top: 4px; line-height: 1.6; }
+.epm-icon-btn { border-radius: 9px !important; }
+.epm-icon-btn.epm-save:hover { background: #e8effe !important; }
+.epm-icon-btn.epm-delete:hover { background: #fdeaea !important; }
+.epm-admin-pricing input[type="checkbox"]:checked { accent-color: var(--epm-navy); }
+.epm-export-panel, .epm-settings-box { border-radius: 14px; border-color: var(--epm-line); }
+.epm-modal-box { border-radius: 14px; }
+.epm-pagination .button { min-width: 72px; }
+
+.epm-footer {
+    margin-top: 16px; border-radius: 14px; padding: 12px 20px; background: var(--epm-navy); color: #cfd8e6;
+    display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 12px; flex-wrap: wrap;
+}
+.epm-footer strong { color: #fff; }
+.epm-footer-brand { display: flex; align-items: center; gap: 8px; }
+.epm-footer-brand img { width: auto; display: block; }
+
+.epm-var-name { white-space: normal !important; min-width: 150px; }
+.epm-variation-table .epm-product-name { font-size: 12px; margin-bottom: 2px; }
+.epm-admin-pricing .epm-perpage { display:inline-flex; align-items:center; gap:6px; font-size:13px; white-space:nowrap; }
+.epm-admin-pricing .epm-notice-anchor, .epm-changes .epm-notice-anchor { display:none; }
+.epm-admin-pricing .epm-updated { padding: 5px; width: fit-content; max-width: 100%; box-sizing: border-box; }
+.epm-admin-pricing .epm-resizable-table th,
+.epm-admin-pricing .epm-resizable-table td,
+.epm-admin-pricing .epm-variation-table th,
+.epm-admin-pricing .epm-variation-table td { text-align: center; vertical-align: middle; }
+.epm-admin-pricing .epm-resizable-table td input[type="text"],
+.epm-admin-pricing .epm-resizable-table td input[type="number"],
+.epm-admin-pricing .epm-variation-table td input { text-align: center; }
+.epm-admin-pricing .epm-updated { margin-left: auto; margin-right: auto; }
+.epm-admin-pricing .epm-actions, .epm-admin-pricing td .epm-icon-btn { justify-content: center; }
+
+/* ---- Loading animation ---- */
+.epm-admin-pricing .epm-is-loading { position: relative; }
+.epm-admin-pricing .epm-is-loading::before {
+	content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; z-index: 5; border-radius: 3px 3px 0 0;
+	background: linear-gradient(90deg, transparent 0, var(--epm-navy, #14233f) 50%, transparent 100%) 0 0 / 40% 100% no-repeat;
+	animation: epm-bar 1.1s ease-in-out infinite;
+}
+@keyframes epm-bar { from { background-position: -40% 0; } to { background-position: 140% 0; } }
+.epm-skel { display: block; height: 12px; margin: 6px auto; border-radius: 6px; background: linear-gradient(90deg, #eceff3 25%, #f7f8fa 50%, #eceff3 75%) 0 0 / 200% 100%; animation: epm-shimmer 1.2s linear infinite; }
+.epm-skel-w80 { width: 80%; } .epm-skel-w60 { width: 60%; height: 28px; border-radius: 8px; } .epm-skel-w50 { width: 50%; } .epm-skel-w40 { width: 40%; height: 28px; border-radius: 8px; }
+@keyframes epm-shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+.epm-row-in { animation: epm-fade .28s ease-out both; }
+@keyframes epm-fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.epm-spinner { display: inline-block; width: 14px; height: 14px; margin-inline-end: 8px; vertical-align: -2px; border: 2px solid #d5dae1; border-top-color: var(--epm-navy, #14233f); border-radius: 50%; animation: epm-spin .7s linear infinite; }
+@keyframes epm-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .epm-skel, .epm-row-in, .epm-spinner, .epm-admin-pricing .epm-is-loading::before { animation: none; } }
+.epm-admin-pricing .epm-updated { white-space: nowrap; width: max-content; }
+
+/* Action buttons: 10% smaller, with a gap between them */
+.epm-admin-pricing .epm-icon-btn { min-height: 27px !important; padding: 2px 6px !important; }
+.epm-admin-pricing .epm-icon-btn .epm-ico { width: 16px; height: 16px; }
+.epm-admin-pricing .epm-actions .epm-icon-btn + .epm-icon-btn { margin-inline-start: 8px; }
